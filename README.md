@@ -1,8 +1,10 @@
 # API-RESTful
+
 Server project based on node.js and express that offers a RESTful API of products.
 
 
 # Includes the following routes: 
+
 -GET '/api/products' -> returns all products.
 
 -GET '/api/products/:id' -> returns a product based on its id. 
