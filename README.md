@@ -1,10 +1,15 @@
 # API-RESTful
-Proyecto de servidor basado en node.js y express que ofrece una API RESTful de productos. 
+Server project based on node.js and express that offers a RESTful API of products.
 
 
-Incorpora las siguientes rutas: 
--GET '/api/productos' -> devuelve todos los productos. 
--GET '/api/productos/:id' -> devuelve un producto según su id. 
--POST '/api/productos' -> recibe y agrega un producto, y lo devuelve con su id asignado. 
--PUT '/api/productos/:id' -> recibe y actualiza un producto según su id. 
--DELETE '/api/productos/:id' -> elimina un producto según su id.
+# Incorpora las siguientes rutas: 
+-GET '/api/products' -> returns all products.
+
+-GET '/api/products/:id' -> returns a product based on its id. 
+
+-POST '/api/products' -> receives and adds a product, and returns it with its assigned id.
+
+-PUT '/api/products/:id' -> receives and updates a product according to its id.   
+
+-DELETE '/api/products/:id' -> delete a product based on its id.
+
